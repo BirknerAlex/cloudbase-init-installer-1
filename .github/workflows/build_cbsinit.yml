@@ -9,8 +9,8 @@ jobs:
     strategy:
       max-parallel: 100
       matrix:
-        cbsinit_repo: ['https://github.com/ader1990/cloudbase-init-1']
-        cbsinit_branch: ['make_requests_optional']
+        cbsinit_repo: ['https://github.com/BirknerAlex/cloudbase-init']
+        cbsinit_branch: ['new-provider']
 
     steps:
     - uses: actions/checkout@v1
